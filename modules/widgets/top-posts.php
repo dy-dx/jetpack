@@ -336,8 +336,8 @@ class Jetpack_Top_Posts_Widget extends WP_Widget {
 					$post['post_id'],
 					array(
 						'fallback_to_avatars' => true,
-						'width'               => (int) $width,
-						'height'              => (int) $height,
+						'width'               => null,
+						'height'              => null,
 						'avatar_size'         => (int) $get_image_options['avatar_size'],
 					)
 				);
